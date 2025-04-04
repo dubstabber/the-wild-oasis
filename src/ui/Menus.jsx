@@ -37,8 +37,8 @@ const StyledList = styled.ul`
   box-shadow: var(--shadow-md);
   border-radius: var(--border-radius-md);
 
-  right: ${(props) => props.position.x}px;
-  top: ${(props) => props.position.y}px;
+  right: ${(props) => props.$position.x}px;
+  top: ${(props) => props.$position.y}px;
 `;
 
 const StyledButton = styled.button`
@@ -70,14 +70,14 @@ const MenusContext = createContext();
 
 function Menus({ children }) {
   const [openId, setOpenId] = useState("");
-  const [position, setPosition] = useState(null);
+  const [$position, setPosition] = useState(null);
 
   const close = () => setOpenId("");
   const open = setOpenId;
 
   return (
     <MenusContext.Provider
-      value={{ openId, close, open, position, setPosition }}
+      value={{ openId, close, open, $position, setPosition }}
     >
       {children}
     </MenusContext.Provider>
@@ -105,13 +105,13 @@ function Toggle({ id }) {
 }
 
 function List({ id, children }) {
-  const { openId, position, close } = useContext(MenusContext);
+  const { openId, $position, close } = useContext(MenusContext);
   const ref = useOutsideClick(close);
 
   if (openId !== id) return null;
 
   return (
-    <StyledList position={position} ref={ref}>
+    <StyledList $position={$position} ref={ref}>
       {children}
     </StyledList>
   );
