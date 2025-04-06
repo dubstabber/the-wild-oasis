@@ -42,6 +42,7 @@ const StyledList = styled.ul`
 `;
 
 const StyledButton = styled.button`
+  white-space: nowrap;
   width: 100%;
   text-align: left;
   background: none;
