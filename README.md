@@ -1,12 +1,105 @@
-# React + Vite
+# The Wild Oasis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![The Wild Oasis](https://github.com/dubstabber/the-wild-oasis/raw/main/public/logo-dark.png)
 
-Currently, two official plugins are available:
+A modern hotel management application built with React, designed to streamline daily operations for hotel employees. This full-stack application enables staff to manage bookings, cabins, guests, and track performance metrics through an intuitive dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🏨 Features
 
-## Expanding the ESLint configuration
+- **Authentication & User Management**: Secure login system for hotel employees with different access levels
+- **Dashboard**: Real-time statistics displaying booking data, occupancy rates, and revenue metrics
+- **Booking Management**: Create, view, update, and delete guest reservations
+- **Cabin Administration**: Manage cabin inventory, details, and pricing
+- **Check-in/Check-out System**: Streamlined process for guest arrivals and departures
+- **Dark/Light Mode**: Customizable UI theme for user preference
+- **Responsive Design**: Optimized for both desktop and tablet use by hotel staff
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies
+
+### Frontend
+- **React** with React Router for navigation
+- **Styled Components** for component-based styling
+- **React Query** for efficient server-state management
+- **React Hook Form** for form validation and handling
+- **Recharts** for data visualization
+- **React Hot Toast** for notifications
+
+### Backend
+- **Supabase** providing:
+  - Database
+  - Authentication
+  - Storage for cabin images
+  - Security with Row Level Security (RLS)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/dubstabber/the-wild-oasis.git
+   cd the-wild-oasis
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+3. Start the development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open your browser and navigate to http://localhost:5173
+
+## 📸 Screenshots
+
+![Dashboard](https://github.com/dubstabber/the-wild-oasis/raw/main/screenshots/dashboard.png)
+![Bookings](https://github.com/dubstabber/the-wild-oasis/raw/main/screenshots/bookings.png)
+![Cabins](https://github.com/dubstabber/the-wild-oasis/raw/main/screenshots/cabins.png)
+
+## 🧪 Key Learning Outcomes
+
+During the development of this project, I gained experience with:
+
+- Building a complete full-stack application with React and Supabase
+- Implementing authentication and protected routes
+- Using React Query for efficient data fetching and caching
+- Creating reusable UI components
+- Implementing dark/light theme with styled-components
+- Data visualization with Recharts
+- Form validation and management
+
+## 🔮 Future Enhancements
+
+- Mobile application for guests to make reservations
+- Integration with payment processing systems
+- Email notification system for booking confirmations
+- Guest profile management system
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## Portfolio Project Note
+
+This project demonstrates my ability to build complex, full-stack applications with modern React patterns and best practices. It showcases my skills in:
+
+- Component architecture and state management
+- Authentication and authorization
+- API integration and data handling
+- UI/UX design with responsive layouts
+- Performance optimization techniques
+
+Feel free to reach out with any questions about my implementation or design choices!
