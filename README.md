@@ -63,9 +63,9 @@ A modern hotel management application built with React, designed to streamline d
 
 ## 📸 Screenshots
 
-![Dashboard](https://github.com/dubstabber/the-wild-oasis/raw/main/screenshots/dashboard.png)
-![Bookings](https://github.com/dubstabber/the-wild-oasis/raw/main/screenshots/bookings.png)
-![Cabins](https://github.com/dubstabber/the-wild-oasis/raw/main/screenshots/cabins.png)
+![Dashboard](./screenshots/dashboard-page.png)
+![Bookings](./screenshots/bookings-page.png)
+![Cabins](./screenshots/cabins-page.png)
 
 ## 🧪 Key Learning Outcomes
 
@@ -85,10 +85,6 @@ During the development of this project, I gained experience with:
 - Integration with payment processing systems
 - Email notification system for booking confirmations
 - Guest profile management system
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
