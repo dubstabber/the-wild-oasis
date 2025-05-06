@@ -1,4 +1,4 @@
-# The Wild Oasis
+# [The Wild Oasis](https://dubstabber.github.io/the-wild-oasis)
 
 ![The Wild Oasis](https://github.com/dubstabber/the-wild-oasis/raw/main/public/logo-dark.png)
 
